@@ -1,0 +1,28 @@
+$(document).ready(function(){
+  $("#des-icon").click(function(){
+      $("#des-icon").toggle();
+      $("#design").toggle();
+  });
+  $("#dev-icon").click(function(){
+    $("#dev-icon").toggle();
+    $("#development").toggle();
+  });
+  $("#prod-icon").click(function(){
+    $("#prod-icon").toggle();
+    $("#product").toggle();
+  });
+});
+$(document).ready(function(){
+  $("#design").click(function(){
+      $("#design").toggle();
+      $("#des-icon").toggle();
+  });
+  $("#development").click(function(){
+    $("#development").toggle();
+    $("#dev-icon").toggle();
+  });
+  $("#product").click(function(){
+    $("#product").toggle();
+    $("#prod-icon").toggle();
+  });
+});
