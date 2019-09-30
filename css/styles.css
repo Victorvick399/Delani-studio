@@ -6,16 +6,20 @@ body{
     margin: 40px 0 ;
     text-align: center;
     color: white;
-    background-image: url(/backgrounds/h_img.jpg)
+    background-image: url(/backgrounds/h_img.jpg);
+    height: 80vh;
+    background-size: 100%;
     
 }
 .services{
+    text-align:center;
     color: white;
-    background-image: url(/backgrounds/s_image.jpg)  
+    background-image: url(/backgrounds/s_image.jpg);
+    height: 50vh; 
 }
 .contactus{
     color: white;
-    background-image: url(/backgrounds/c_image.jpg)
+    background-image: url(/backgrounds/c_image.jpg);
 }
 ::placeholder{
     color: white;
@@ -31,4 +35,10 @@ body{
 #product{
     display: none;
     cursor: pointer;
+}
+.work8{
+    display:none;
+}
+ *{ 
+ overflow-x: hidden;
 }
