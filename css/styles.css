@@ -8,7 +8,7 @@ body{
 .head{
     text-align: center;
     color: white;
-    background-image: url(backgrounds/h_img.jpg);
+    background-image: url(/backgrounds/h_img.jpg);
     height: 80vh;
     background-size: cover;
     
