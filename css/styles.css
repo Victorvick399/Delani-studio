@@ -44,10 +44,10 @@ body{
 #pwork8{
     display: none;
 }
-.work8{
+.portfolio> img:hover{
     position: relative;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(245, 239, 239, 0.041);
     color: #f1f1f1;
     width: 100%;
     transition: .5s ease;

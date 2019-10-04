@@ -28,6 +28,6 @@ $(document).ready(function(){
 });
 $(document).ready(function(){
   $("#work8").hover(function(){
-    
+    $("")
   });
 });
