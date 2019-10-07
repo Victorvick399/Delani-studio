@@ -22,6 +22,7 @@ body{
 .contactus{
     color: white;
     background: url("../backgrounds/c_image.jpg");
+    padding-bottom: 20px;
 }
 ::placeholder{
     color: white;
@@ -44,13 +45,11 @@ body{
 #pwork8{
     display: none;
 }
-.portfolio> img:hover{
-    position: relative;
-    bottom: 0;
-    background: rgba(245, 239, 239, 0.041);
-    color: #f1f1f1;
-    width: 100%;
-    transition: .5s ease;
-    height: 100%;
-    opacity: 2;
+.pimg{
+top: 50%;
+left: 40%;
+color:black;
+background-color: #fff;
+position:absolute;
+display:none ;
 }
